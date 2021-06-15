@@ -20,22 +20,22 @@ header {
     width: 100%;
     max-width: 50px;
 }
-.header-left-links {
+.header-links {
     width: 42%;
     padding: 0 10px;
 }
-.header-left-links ul {
+.header-links ul {
     padding-left: 0;
     list-style: none;
     display: flex;
 }
-.header-left-links ul li {
+.header-links ul li {
     margin-right: 80px;
 }
-.header-left-links ul li:nth-child(4) {
+.header-links ul li:nth-child(4) {
     margin-right: 0;
 }
-.header-left-links ul li a {
+.header-links ul li a {
     text-decoration: none;
     font-family: Open Sans;
     font-style: normal;
@@ -44,7 +44,7 @@ header {
     line-height: 18px;
     color: #fff;
 }
-.header-left-links ul li a:hover {
+.header-links ul li a:hover {
     color: rgb(33, 128, 96);
 }
 .header-logo {
@@ -62,33 +62,12 @@ header {
     transform: rotate(-360deg);
     transition: all 1.5s ease 0s;
 }
-.header-right-links {
-    width: 42%;
-    padding: 0 10px;
-}
 .header-right-links ul {
-    padding-left: 0;
-    list-style: none;
-    display: flex;
     justify-content: flex-end;
 }
 .header-right-links ul li {
     margin-left: 80px;
-}
-.header-right-links ul li:nth-child(1) {
-    margin-left: 0;
-}
-.header-right-links ul li a {
-    text-decoration: none;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 18px;
-    color: #fff;
-}
-.header-right-links ul li a:hover {
-    color: rgb(33, 128, 96);
+    margin-right: 0;
 }
 .background {
     background-image: url('../img/header-bg.png');
@@ -262,7 +241,7 @@ header {
     width: 60px;
     border-radius: 20px;
 }
-.about-us-text h3 {
+.about-us-text span {
     margin: 0;
     padding: 0 10px;
     margin-bottom: 20px;
